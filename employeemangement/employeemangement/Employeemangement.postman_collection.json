@@ -1,0 +1,209 @@
+{
+	"id": "79f723d5-35a4-a809-af2c-3b1d6f094868",
+	"name": "Employeemangement",
+	"description": "LanguageSave",
+	"order": [
+		"59ffc408-8979-9da0-c4f6-5aea2c37da02",
+		"cceeed53-5aa1-fd38-28ec-e563cf99e158",
+		"ecfff664-0b9c-2526-510e-c95341dd6adc",
+		"6a0cc3eb-3f90-c98f-1662-43ac970fdebf",
+		"0496b15e-6f15-ac68-cf99-c1d48e956abd",
+		"5afa9d82-6f67-0ffd-be55-e0fe9b219a3d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1590833984139,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0496b15e-6f15-ac68-cf99-c1d48e956abd",
+			"headers": "Authorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8106/api/employees/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1590899700201,
+			"name": "GetEmployee",
+			"description": "",
+			"collectionId": "79f723d5-35a4-a809-af2c-3b1d6f094868",
+			"responses": []
+		},
+		{
+			"id": "59ffc408-8979-9da0-c4f6-5aea2c37da02",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46cGFzc3dvcmQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8106/api/languages",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1590899701707,
+			"name": "SaveLanguage",
+			"description": "LanguageSave",
+			"collectionId": "79f723d5-35a4-a809-af2c-3b1d6f094868",
+			"responses": [],
+			"rawModeData": "{\n\n    \"name\": \"Operkating Systems\",\n    \"code\": \"OS00k\"\n}"
+		},
+		{
+			"id": "5afa9d82-6f67-0ffd-be55-e0fe9b219a3d",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8106/api/employees/4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "79f723d5-35a4-a809-af2c-3b1d6f094868",
+			"data": null,
+			"dataMode": "params",
+			"name": "DeleteEmployee",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590834563500,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6a0cc3eb-3f90-c98f-1662-43ac970fdebf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8106/api/employees/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1590976421341,
+			"name": "UpdateEmployee",
+			"description": "",
+			"collectionId": "79f723d5-35a4-a809-af2c-3b1d6f094868",
+			"responses": [],
+			"rawModeData": "{\n\t\"firstName\":\"Saitheja\",\n\t\"lastName\":\"macharla\",\n\t\"department\":\n\t{\n\t\t\"departmentId\":3\n\t}\n}"
+		},
+		{
+			"id": "cceeed53-5aa1-fd38-28ec-e563cf99e158",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46cGFzc3dvcmQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8106/api/departments",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1590899696197,
+			"name": "SaveDepartments",
+			"description": "",
+			"collectionId": "79f723d5-35a4-a809-af2c-3b1d6f094868",
+			"responses": [],
+			"rawModeData": "{\n\t\"locationId\":23,\n\t\"status\":true,\n\t\"languages\":[{\n\t\t\"language_id\":1\n\t},\n\t{\n\t\t\"language_id\":2\n\t}\n\t]\n\t\n}"
+		},
+		{
+			"id": "ecfff664-0b9c-2526-510e-c95341dd6adc",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46cGFzc3dvcmQ=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46cGFzc3dvcmQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8106/api/employees",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1590899697974,
+			"name": "SaveEmployee",
+			"description": "",
+			"collectionId": "79f723d5-35a4-a809-af2c-3b1d6f094868",
+			"responses": [],
+			"rawModeData": "{\n\t\"firstName\":\"Saitheja\",\n\t\"lastName\":\"macharla\",\n\t\"department\":\n\t{\n\t\t\"departmentId\":3\n\t}\n}"
+		}
+	]
+}
